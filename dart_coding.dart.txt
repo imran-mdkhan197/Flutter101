@@ -1,0 +1,33 @@
+class Person {
+
+  String name = "Imran";
+  int age = 30;
+  
+//   Person({String name='Test',int age=8}){
+//     this.name=name;
+//     this.age = age;
+//   }
+  
+//   Person({@required String name,@required int age=8}){
+//     this.name=name;
+//     this.age = age;
+//   }
+  
+  
+  Person({String name,int age=8});
+  
+}
+
+
+addNumber(int num1, int num2) {
+
+return num1 + num2;
+}
+
+void main() {
+  print(addNumber(2,8));
+  
+  var p1 = new Person(name: 'test');
+  print(p1.name);
+  print(p1.age);
+}
